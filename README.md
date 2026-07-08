@@ -6,11 +6,11 @@ low,medium and high insurance premium risk categories based on demographic and l
 The objective is to demonstrate how predictive analytics can support insurance underwriting and premium 
 pricing decisions.
 
-##**Business problem
+##**Business problem**
 Insurance companies need reliable methods to assess customer risk and determine appropriate premium categories.
 The project develops a classification model that predicts insurance premium risk using customer characteristics.
 
-##Dataset
+##**Dataset**
 The dataset contains information such as:
  -Age
  -Gender
@@ -20,7 +20,7 @@ The dataset contains information such as:
  -Number of children
  -Insurance Premium Category(Target variable)
 
- ##Technologies used
+ ##**Technologies used**
   -python
   -pandas
   -numpy
@@ -31,7 +31,7 @@ The dataset contains information such as:
  ## Machine Learning Model
  -Decision Tree Classifier
 
- ##Model Performance
+ ##**Model Performance**
  -Accuracy **65%**
  -Model evaluated using:
   -confusin matrix
