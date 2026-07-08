@@ -6,7 +6,7 @@ low,medium and high insurance premium risk categories based on demographic and l
 The objective is to demonstrate how predictive analytics can support insurance underwriting and premium 
 pricing decisions.
 
-##Business problem
+##**Business problem
 Insurance companies need reliable methods to assess customer risk and determine appropriate premium categories.
 The project develops a classification model that predicts insurance premium risk using customer characteristics.
 
