@@ -30,18 +30,27 @@ The dataset contains information such as:
  
  ## Machine Learning Model
  -Decision Tree Classifier
+ -Logistic regression
+ -Random Forest Classifier
+ -XGBoost classifier
 
- ##**Model Performance**
- -Accuracy **65%**
- -Model evaluated using:
-  -confusin matrix
-  -classification report
-  -ROC-AUC Curve
+ **Model Performance**
+ Four classification models were evaluated using accuracy,precision,recall
+ f1-score,confusion matrix,ROC-AUC curve and Feature Importance.
+ Best performing model :
+ -Decision tree 
+ -Accuracy 65%
 
-  ## Key Findings
-  -Smoking status was one of the strongest predictors of insurance premium risk.
-  -Age and BMI significantly influenced premium classification.
-  -Machine learning can support data-driven underwriting decisions
+ ## results table
+
+   model             accuracy   precision   recall   f1-score
+decision tree          0.65       0.65       0.65     0.65
+logistic regresion     0.60       0.64       0.60     0.61
+random forest          0.60       0.65       0.60     0.61
+XGBoost                0.60       0.65       0.60     0.61
+
+ ## Key Findings
+  
 
   ##Author
   **Angeline Oyaro**
