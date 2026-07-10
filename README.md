@@ -1,68 +1,113 @@
-# Machine Learning for Insurance Risk Classification
+ 🏥 Insurance Premium Risk Classification using Machine Learning
 
-## Project overview
-This project applies machine learning techniques to classify insurance policyholders into
-low,medium and high insurance premium risk categories based on demographic and lifestyle characteristics.
-The objective is to demonstrate how predictive analytics can support insurance underwriting and premium 
-pricing decisions.
+## 📌 Project Overview
 
-##**Business problem**
-Insurance companies need reliable methods to assess customer risk and determine appropriate premium categories.
-The project develops a classification model that predicts insurance premium risk using customer characteristics.
+This project applies machine learning techniques to classify insurance policyholders into **Low**, **Medium**, and **High** insurance premium risk categories based on demographic and lifestyle characteristics.
 
-##**Dataset**
-The dataset contains information such as:
- -Age
- -Gender
- -Body mass index
- -smoking status
- -region
- -Number of children
- -Insurance Premium Category(Target variable)
+The objective is to demonstrate how predictive analytics can support **insurance underwriting** and **premium pricing decisions**.
 
- ##**Technologies used**
-  -python
-  -pandas
-  -numpy
-  -Scikit-learn
-  -matplot-lib
-  -Jupyter Notebook
- 
- ## Machine Learning Model
- -Decision Tree Classifier
- -Logistic regression
- -Random Forest Classifier
- -XGBoost classifier
+---
 
- **Model Performance**
- Four classification models were evaluated using accuracy,precision,recall
- f1-score,confusion matrix,ROC-AUC curve and Feature Importance.
- Best performing model :
- -Decision tree 
- -Accuracy 65%
+## 💼 Business Problem
 
- ## model comparison  table
-Model	Accuracy	Precision	Recall	F1-Score
-0	Decision Tree	0.65	0.650	0.65	0.650
-1	Logistic Regression	0.60	0.637	0.60	0.613
-2	Random Forest	0.60	0.651	0.60	0.612
-3	XGBoost	0.60	0.651	0.60	0.612
+Insurance companies need reliable methods to assess customer risk and determine appropriate premium categories. This project develops classification models that predict insurance premium risk using customer characteristics.
 
+---
 
- ## Key Findings
-  Feature important analysis showed that smoking status, age and BMI were 
-  among the strongest predictors of insurance premium risk.
+## 📊 Dataset
 
-  ## Future imporovements
-  -Hyperparameter tuning using GridSearchCv
-  -Cross-validation
-  -Larger real-world insurance datasets
-  -Model deployment using streamlit or flask
+The dataset contains customer information including:
 
-  ##Author
-  **Angeline Oyaro**
-  Actuarial science Graduate 
-  Interested in insurance Analytics, Underwriting and Machine Learning.
+- Age
+- Gender
+- Body Mass Index (BMI)
+- Smoking Status
+- Region
+- Number of Children
+
+**Target Variable**
+
+- Insurance Premium Category (Low, Medium, High)
+
+---
+
+## 🛠️ Technologies Used
+
+- Python
+- Pandas
+- NumPy
+- Scikit-learn
+- XGBoost
+- Matplotlib
+- Jupyter Notebook
+
+---
+
+## 🤖 Machine Learning Models
+
+The following classification models were developed and compared:
+
+- Decision Tree Classifier
+- Logistic Regression
+- Random Forest Classifier
+- XGBoost Classifier
+
+---
+
+## 📈 Model Performance
+
+| Model | Accuracy | Precision | Recall | F1-Score |
+|-------|---------:|----------:|-------:|---------:|
+| Decision Tree | **0.65** | **0.65** | **0.65** | **0.65** |
+| Logistic Regression | 0.60 | 0.64 | 0.60 | 0.61 |
+| Random Forest | 0.60 | 0.65 | 0.60 | 0.61 |
+| XGBoost | 0.60 | 0.65 | 0.60 | 0.61 |
+
+### Evaluation Metrics
+
+The models were evaluated using:
+
+- ✅ Accuracy
+- ✅ Precision
+- ✅ Recall
+- ✅ F1-Score
+- ✅ Confusion Matrix
+- ✅ ROC-AUC Curve
+- ✅ Feature Importance
+
+---
+
+## 🔍 Key Findings
+
+- Smoking status was one of the strongest predictors of insurance premium risk.
+- Age and BMI significantly influenced premium classification.
+- Decision Tree achieved the highest overall accuracy (65%).
+- Machine learning can support data-driven underwriting and pricing decisions.
+
+---
+
+## 🚀 Future Improvements
+
+- Perform Hyperparameter Tuning using GridSearchCV
+- Apply Cross-Validation
+- Train using larger real-world insurance datasets
+- Deploy the model using Streamlit or Flask
+
+---
+
+## 👩‍💻 Author
+
+**Angeline Oyaro**
+
+🎓 Actuarial Science Graduate
+
+Interested in:
+
+- Insurance Analytics
+- Underwriting
+- Data Science
+- Machine Learning
+
   
 
 
