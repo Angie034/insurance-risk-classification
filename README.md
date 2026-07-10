@@ -56,9 +56,11 @@ The following classification models were developed and compared:
 
 ## 📈 Model Performance
 
+## Model Performance
+
 | Model | Accuracy | Precision | Recall | F1-Score |
-|-------|---------:|----------:|-------:|---------:|
-| Decision Tree | **0.65** | **0.65** | **0.65** | **0.65** |
+|---------|---------|---------|---------|---------|
+| Decision Tree | 0.65 | 0.65 | 0.65 | 0.65 |
 | Logistic Regression | 0.60 | 0.64 | 0.60 | 0.61 |
 | Random Forest | 0.60 | 0.65 | 0.60 | 0.61 |
 | XGBoost | 0.60 | 0.65 | 0.60 | 0.61 |
