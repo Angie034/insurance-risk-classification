@@ -42,12 +42,12 @@ The dataset contains information such as:
  -Accuracy 65%
 
  ## results table
+ Model	Accuracy	Precision	Recall	F1-Score
+0	Decision Tree	0.65	0.650	0.65	0.650
+1	Logistic Regression	0.60	0.637	0.60	0.613
+2	Random Forest	0.60	0.651	0.60	0.612
+3	XGBoost	0.60	0.651	0.60	0.612
 
-   model             accuracy   precision   recall   f1-score
-decision tree          0.65       0.65       0.65     0.65
-logistic regresion     0.60       0.64       0.60     0.61
-random forest          0.60       0.65       0.60     0.61
-XGBoost                0.60       0.65       0.60     0.61
 
  ## Key Findings
   
