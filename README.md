@@ -42,15 +42,21 @@ The dataset contains information such as:
  -Accuracy 65%
 
  ## results table
- Model	Accuracy	Precision	Recall	F1-Score
+Model	Accuracy	Precision	Recall	F1-Score
 0	Decision Tree	0.65	0.650	0.65	0.650
 1	Logistic Regression	0.60	0.637	0.60	0.613
 2	Random Forest	0.60	0.651	0.60	0.612
 3	XGBoost	0.60	0.651	0.60	0.612
 
-
  ## Key Findings
-  
+  Feature important analysis showed that smoking status, age and BMI were 
+  among the strongest predictors of insurance premium risk.
+
+  ## Future imporovements
+  -Hyperparameter tuning using GridSearchCv
+  -Cross-validation
+  -Larger real-world insurance datasets
+  -Model deployment using streamlit or flask
 
   ##Author
   **Angeline Oyaro**
